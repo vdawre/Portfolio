@@ -17,6 +17,10 @@
     -webkit-fontsmoothing: antialiased;
 }
 
+body {
+    background-color: var(--dark);
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -25,7 +29,6 @@ main {
 header {
     width: 100vw;
     height: 3.6rem;
-    background-color: var(--dark);
 }
 
 nav {
@@ -47,7 +50,6 @@ nav a {
     padding: 6rem 4rem 4rem 4rem;
     max-width: 100%;
     max-height: 100%;
-    background-color: var(--dark);
     height: 100vh;
 }
 
@@ -114,19 +116,29 @@ nav a {
 }
 
 .cardSec {
-    background-color: var(--dark);
     padding: 6rem 4rem 4rem 4rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: var(--dark);
+}
+
+.cardSec>.sec {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
 }
 
 .cardP {
     display: flex;
     flex-direction: column;
-    padding: 2.4rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-right: 2rem;
     width: 400px;
     height: 250px;
     color: white;
