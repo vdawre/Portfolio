@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&display=swap');
+@import "utilities.css";
+
+:root {
+    --primary-color: white;
+    --secondary-color: #FCFCFC;
+    --ternary-color: rgba(204, 0, 68, 70%);
+    --shadow: rgba(0, 0, 0, 100%);
+    --pure: #fff;
+    --dark: #000;
+    --grey: rgba(0, 0, 0, 60%);
+    --grey2: rgba(0, 0, 0, 78%);
+    --watermark: rgba(152, 152, 152, 12%);
+    --highlight: rgba(0, 132, 184, 8%);
+    --highlight-dark: rgba(0, 132, 184, 100%);
+    --highlight-font: rgba(0, 0, 0, 60%);
+    --highlight-hover: rgba(0, 132, 184, 28%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'maven pro', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    background-color: var(--primary-color);
+    color: var(--dark);
+}
+
+/* header */
+.stack {
+    padding-top: 3rem;
+    padding-bottom: 2.4rem;
+}
+
+header nav {
+    max-width: 1600px;
+    padding: 1rem 4rem;
+}
+
+header nav .left {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+header nav .left a {
+    color: var(--dark);
+}
+
+header nav .right {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+header nav .right a {
+    color: var(--highlight-font);
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+header nav .right a:hover {
+    color: var(--dark);
+}
+
+/* Styles*/
+
+.main-container {
+    height: 81vh;
+    max-width: 1376px;
+    padding: 4rem;
+    top: 100px;
+}
+
+.container .heading {
+    margin: 6rem 0px;
+}
+
+.container .content p {
+    color: var(--highlight-font);
+    padding: 1rem 0px;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.container .content p span {
+    transition: all .5s ease-in-out;
+}
+
+.container .content .subheading {
+    color: var(--dark);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.container .content .subheading .subtext {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.container .content p span * {
+    color: rgba(46, 46, 46, 0.8);
+    font-weight: 500;
+}
+
+.container .content p .highlight:hover {
+    background-color: var(--highlight-hover);
+    color: var(--dark);
+}
+
+.socials {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.socials p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--highlight-dark);
+    padding-bottom: 1.3rem;
+}
+
+.socials div {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.socials div a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 14px;
+    font-weight: 500;
+    padding: .2rem;
+    transition: color .5s ease;
+}
+
+.socials a i {
+    padding: 0;
+    margin: 0;
+    font-size: 2.4rem;
+    transition: color .5s ease;
+}
+
+.socials div div:hover * {
+    color: var(--highlight-dark);
+}
+
+
+/* Footer */
+footer {
+    margin-top: 15%;
+}
+
+.footer-bottom {
+    position: relative;
+    background: var(--secondary-color);
+    border-radius: 24px;
+    max-width: fit-content;
+    padding: 1rem 2rem;
+    margin: 0rem 1rem;
+}
+
+.footer-bottom p {
+    color: var(--highlight-font);
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .main-container {
+        height: auto;
+    }
+}

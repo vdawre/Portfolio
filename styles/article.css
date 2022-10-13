@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&display=swap');
+@import "/styles/styles.css";
+@import "/styles/utilities.css";
+
+.stack {
+    padding-top: 0;
+    padding-bottom: 2.4rem;
+}
+
+.article-container {
+    gap: 5rem;
+    padding-bottom: 6%;
+}
+
+.article-container .article {
+    max-width: 1376px;
+}
+
+.article-container .article p {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+footer {
+    margin-top: 0;
+    padding-top: 5.2%;
+}

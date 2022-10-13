@@ -5,50 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/343a928249.js" crossorigin="anonymous"></script>
     <title>Vaibhav Dawre</title>
-    <link rel="stylesheet" href="styles.css">
+</head>
 
-<body>
-    <header>
-        <nav>
-            <div class="left">
-                <a href="#" id="brand_name">vaibhavdawre</a>
-            </div>
-            <div class="right">
-                <a href="#">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="hero-container">
-            <div class="hero-title">
-                <h1>I'm Vaibhav Dawre</h1>
-                <p class="subheading">UX Designer / Web Developer</p>
-                <p class="description">I make user centered design bridging<br>
-                    the gap between user and the end product</p>
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <h2>Skills</h2>
-                    <p>User Experience Design, User Personas, User Research, Affinity Mapping, Storyboarding,
-                        Wireframing, Protyping</p>
+<body class="flex row justify-center">
+    <div class="centered-container flex col">
+        <header class="flex col justify-center">
+            <nav class="flex justify-between items-center">
+                <div class="left flex">
+                    <a href="">VD.</a>
                 </div>
-                <div class="card">
-                    <h2>Tools & Technologies</h2>
-                    <p>Figma, HTML5, CSS3, Git, Javascript, Node.js </p>
+                <div class="right flex double-gap">
+                    <a href="#">Home</a>
+                    <a href="/pages/projects.html">Projects</a>
+                    <a href="/pages/blog.html">Blog</a>
+                    <a href="">About</a>
                 </div>
-                <div class="card">
-                    <h2>Projects</h2>
-                    <p>View all projects</p>
-                    <a href="projects.html"><button id="btn">View</button></a>
+            </nav>
+        </header>
+        <div class="main-container flex">
+            <div class="container flex col">
+                <div class="stack" style="--stacks: 3;">
+                    <span style="--index: 0;">I'm Vaibhav Dawre</span>
+                    <span style="--index: 1;">I'm Vaibhav Dawre</span>
+                    <span style="--index: 2;">I'm Vaibhav Dawre</span>
+                </div>
+                <div class="content flex col">
+                    <p>I am a <span class="highlight "><a href="">UX designer</a></span>, <span class="highlight"><a
+                                href="">Frontend
+                                developer</a></span> and a
+                        Minimalist still exploring
+                        other
+                        technologies and
+                        frameworks that catch my
+                        interest!
+                        Looking for a new member for your team, I'd love to hear from you!</p>
+                    <p>
+                        Currently working on my coding skills. View my <span class="highlight"><a
+                                href="/pages/projects.html">Projects</a></span>,
+                        <span class="highlight"><a href="">Designs</a></span>, <span class="highlight"><a
+                                href="">Contact</a></span>, or send me an email at
+                        <span class="highlight"><a href="">vdawrecc@gmail.com</a></span>
+                    </p>
+                    <p class="subheading">Skills<br>
+                        <span class="subtext">User Experience Design, User Personas, User Research, Affinity Mapping,
+                            Storyboarding,
+                            Wireframing, Protyping</span>
+                    </p>
+                    <p class="subheading">Tools & Technologies<br>
+                        <span class="subtext">Figma, HTML5, CSS3, Git, Javascript, Node.js, Webflow, Adobe Photoshop,
+                            Adobe
+                            Indesign</span>
+                    </p>
+                    <div class="socials flex col">
+                        <p>Connect here</p>
+                        <div class="flex row gap3">
+                            <div class="flex col">
+                                <a href="https://www.linkedin.com/in/vdawrecc/"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/vdawrecc/">LinkedIn</a>
+                            </div>
+                            <div class="flex col">
+                                <a href="https://github.com/vdawre"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://github.com/vdawre">Instagram</a>
+                            </div>
+                            <div class="flex col">
+                                <a href="https://www.instagram.com/vaibhav_dawre/"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/vaibhav_dawre/">Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="flex col justify-center items-center">
+                    <div class="footer-bottom flex justify-center items-center">
+                        <p><i class=" fa-solid fa-copyright"></i> 2022 all rights reserved , Made by<span>
+                                Vaibhav
+                                Dawre</span>
+                        </p>
+                    </div>
+                </footer>
+                <div class="watermark">
+                    <p>Hello : Konichiwa!</p>
                 </div>
             </div>
         </div>
 
-    </main>
+    </div>
 </body>
 
 </html>

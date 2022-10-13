@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&display=swap');
+@import "/styles/styles.css";
+@import "/styles/utilities.css";
+
+.stack {
+    padding-top: 0;
+    padding-bottom: 2.4rem;
+}
+
+.card-container {
+    flex-basis: 100%;
+}
+
+.card a {
+    max-width: 240px;
+    padding: .8rem 1rem;
+    color: var(--dark);
+    border: 0.1rem solid var(--dark);
+    border-radius: 10px;
+    box-shadow: -.5px .5px 4px rgba(0, 0, 0, 10%);
+    transition: all .5s ease-in-out;
+}
+
+.card a i {
+    padding-right: 1rem;
+}
+
+.card .view-source {
+    color: var(--pure);
+    background-color: var(--grey2);
+}
+
+.card .view-source:hover {
+    background-color: var(--dark);
+    color: var(--pure);
+    border: 2px solid var(--ternary-color);
+}
+
+.card .live-preview:hover {
+    background-color: var(--ternary-color);
+    color: var(--pure);
+    border-color: var(--ternary-color);
+}
+
+footer {
+    margin-top: 8%;
+}
+
+/**/
